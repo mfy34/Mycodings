@@ -1,0 +1,47 @@
+
+
+html,body{
+    font-size: 1rem;
+}
+
+
+.kutu1{
+    background-color: aqua;
+    width: 3cm;
+    height: 50vh;
+    font-size: 2rem;
+    
+    
+
+}
+.kutu2{
+    background-color: rgb(255, 179, 0);
+    width: 300px;
+
+}
+.kutu3{
+    background-color:violet;
+    width: 50%;
+    height: 300px;
+    font-size: 2rem;
+}
+.kutu4{
+    background-color: burlywood;
+    width: 50%;
+     height: 50%;
+     font-size: 2rem;
+}
+.kutu5{
+    background-color: chartreuse;
+    width: 50vw;
+}
+
+
+
+
+
+
+
+
+
+
