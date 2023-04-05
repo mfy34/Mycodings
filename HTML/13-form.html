@@ -11,15 +11,41 @@
       <table>
         <tr>
           <td><label for="ep">Eposta</label></td>
-          <td><input required type="email" name="eposta" id="ep" /></td>
+          <td>
+            <input
+              required
+              type="email"
+              name="eposta"
+              id="ep"
+              placeholder="info@example.com"
+            />
+          </td>
         </tr>
         <tr>
           <td><label for="sf">Şifre</label></td>
-          <td><input minlength="3" type="password" name="sifre" id="sf" /></td>
+          <td>
+            <input
+              minlength="3"
+              maxlength="10"
+              type="password"
+              name="sifre"
+              id="sf"
+            />
+          </td>
         </tr>
         <tr>
           <td><label for="gk">Güvenlik kodu</label></td>
-          <td><input type="number" name="kod" id="gk" /></td>
+          <td>
+            <input
+              type="number"
+              min="100"
+              max="100000"
+              name="kod"
+              id="gk"
+              value="123123"
+              readonly
+            />
+          </td>
         </tr>
         <tr>
           <td></td>
