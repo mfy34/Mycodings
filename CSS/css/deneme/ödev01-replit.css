@@ -1,0 +1,118 @@
+
+body{
+    
+    padding:150px;
+    padding-right: 150px;
+    margin-right: 100px;
+    font-size: 2rem;
+    display: inline-block;
+    
+}
+
+
+.table{
+  margin-right: 100px;
+
+   
+}
+.table thead {
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    
+   }
+.table thead tr th{
+padding:0rem 2rem;
+
+}
+.table thead tr th:nth-child(2){
+    
+   padding: 0rem 6rem;
+   
+   
+   
+   
+}
+tbody tr td:nth-child(3){
+   text-align: center;
+}
+tbody tr td:nth-child(4){
+    text-align: right;
+}
+tbody tr td:nth-child(5){
+    text-align: right;
+}
+tbody tr:nth-child(odd){
+    background-color: bisque;
+}
+tbody tr:nth-child(even){
+    background-color: beige;
+}
+tfoot tr{
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+tfoot tr td:last-child{
+    padding: 20px 50px;
+}
+tfoot tr:last-child{
+   background-color: white;
+    text-align: right;
+}
+
+tfoot tr:last-child{
+   background-color: black;
+}
+.section2 div{
+    display: inline-block;
+    padding: 1.2rem;
+    margin-left: 13.7rem;
+}
+.section2 div div:hover{
+    background-color: aqua;
+    font-size: 2.5rem;
+}
+.section2 div div{
+   background-color: crimson;
+}
+.section2 div span{
+    
+    padding: 20px;
+    background-color: crimson;
+}
+.section2 div span:hover{
+    background-color: aqua;
+    font-size: 2.5rem;
+}
+tbody tr:nth-child(odd):hover{
+    background-color: blueviolet;
+    font-size: 2.5rem;
+}
+tbody tr:nth-child(even):hover{
+    background-color: brown;
+    font-size: 2.5rem;
+}
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+

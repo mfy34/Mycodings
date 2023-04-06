@@ -1,0 +1,21 @@
+nav.menu ul{
+  
+  list-style-type: none;
+    text-align: center; 
+  
+}
+nav.menu li{
+  display: inline-block; 
+  list-style-type: disc;
+  
+
+  
+}
+
+nav.menu li a{
+    background-color: #FF0063;
+    color: #EAF6F6;
+    padding: 5px 10px;
+    margin: 20px;
+    text-decoration: none;
+}

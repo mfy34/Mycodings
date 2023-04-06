@@ -1,0 +1,7 @@
+nav.menu{
+    background-color: aqua;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+}

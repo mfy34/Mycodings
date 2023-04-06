@@ -1,0 +1,21 @@
+:root{
+  --color1:blue;
+  --color2:red;
+}
+.kutu td {
+vertical-align: top;
+padding: 0 20px;
+}
+.kutu a{
+  text-decoration: none;
+  color:var(--color1)
+}
+.kutu h2{
+  color:var(--color2)
+}
+
+
+
+
+
+

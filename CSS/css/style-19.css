@@ -1,0 +1,17 @@
+:root{
+ --color1: bisque;
+ --color2: aqua;
+
+}
+
+.title{
+    color: var(--color2)
+}
+.about{
+    background-color: var(--color1);
+}
+
+mark{
+    background-color: var(--color2);
+    color: var(--color1);
+}

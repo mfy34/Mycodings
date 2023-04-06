@@ -1,0 +1,31 @@
+.main-menu{
+    width: 180px;
+    
+    
+   
+    
+   
+}
+.main-menu-ul{
+    list-style-type: none;
+    background-color: brown;
+
+    
+   
+    
+    
+    
+}
+.main-menu-ul a{
+    font-size: 1,2rem;
+    color: white;
+    display: inline-block;
+    padding: 12px;
+    text-decoration: none;
+  
+}
+.main-menu a:hover{
+color: yellow;
+}
+   
+
