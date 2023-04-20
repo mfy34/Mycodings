@@ -1,28 +1,87 @@
+:root{
+  --color1:#ececec;
+  --color2:#650777;
+}
+body{
+  padding: 20px;
+  background-color:var(--color2);
+}
+.login-form{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--color1);
 
-
-
-
-
-
-
-
-
-.menu2{
-    display: flex;
-   width: 120vh;
-   max-height: max-content;
-    background-image: url(/img/bg-login.jpg);
-    background-position: bottom;
-    background-size: 900px;
-    background-repeat: no-repeat;
-position: absolute;
-  right: 0px;
-  bottom: 0x;
-  top: 0px;
-  right: 0;
+}
+.login-form .left{
+  padding: 10px;
+ flex: 1 1 200px;
+}
+.login-form .left form{  
+  text-align: center;
+  padding: 50px;
+}
+.login-form .left form h2{
+  margin-bottom: 40px;
+}
+.login-form .left form .form-row{
+  margin-bottom: 20px;
+}
+.lofin-form .right{
+  flex: 1 1 500px;
+}
+.login-form .left form input{
+  background: none;
+  border: 0;
+  border-bottom: 1px solid ;
+  padding: 5px;
+  font-size: 0,7rem;
+  width:100%;
+}
+.login-form .left form button{
+  padding: 15px 40px;
+  border-radius: 5px;
+  background-color: #650777;
+  color: #ececec;
+  margin-top: 70px;
+}
+.login-form .right{
+  flex: 1 1 500px;
+  background-image: url(/img/bg-login.jpg);
+  background-size:cover;
+  background-position: center center;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
    
   
 

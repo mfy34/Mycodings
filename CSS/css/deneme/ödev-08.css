@@ -1,0 +1,14 @@
+.button{
+    margin: 30px 80px;
+    padding: 15px 50px;
+    border-radius: 20px;
+    background-color:orange;
+    font-weight: 600;
+    cursor: pointer;
+   transition:1s;
+}
+.button:hover{
+background-color: aqua;
+color: brown;
+transform: rotate(360deg);
+}

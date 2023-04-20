@@ -1,3 +1,58 @@
+.main-menu{
+    width: 350px;
+    height: 300px;
+    padding: 4rem;
+    margin-top: -10rem;
+    padding-left: -15rem;
+    
+    
+}
+.title{
+    padding: 2rem;
+    margin-top: 3rem;
+}
+nav.main-menu li{
+    list-style-type: none;
+    background-color: grey;
+    display: none;
+    
+    
+}
+nav.main-menu li::before{
+    content: "::";
+    font-size: 2.1rem;
+    
+   
+}
+nav.main-menu a{
+    display: inline-block;
+    padding-left: 2rem;
+    text-decoration: none;
+    font-size:2.3em;
+    padding:1rem;
+    color: white;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+nav.main-menu li:first-child{
+    background-color: black;   
+}
+.chk-menu{
+    display: none;
+    
+    
+}
+.chk-menu:checked + .main-menu li{
+  display: list-item;
+}
+.main-menu label{
+    cursor: pointer;
+}
+.main-menu a:hover{
+    font-size: 2rem;
+    background-color: aqua;
+}
+
 
 
 
