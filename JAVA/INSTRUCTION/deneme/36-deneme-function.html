@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function getAge1() {
+        alert(`My age is ${2023 - 2000}`);
+      }
+      function getAge2(birthYear) {
+        alert(`My age is ${2023 - birthYear}`);
+      }
+      function getAge3(birthYear) {
+        const dateTime = newDate();
+        const currentYear = dateTime.getFullYear();
+        alert(`My age is ${currentYear - birthYear}`);
+      }
+      function getAge4(birthYear) {
+        const dateTime = newDate();
+        const currentYear = dateTime.getFullYear();
+        return currentYear - birthYear;
+      }
+
+      //get Age1()
+      //getAge2(2005)
+      //getAge3(2003);
+      const age = getAge4(2010);
+    </script>
+  </body>
+</html>

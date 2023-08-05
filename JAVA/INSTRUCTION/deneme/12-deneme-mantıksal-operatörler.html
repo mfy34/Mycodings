@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let x = false;
+      let y = true;
+      let z = true;
+      let t = "false";
+      let m = "kedi";
+      let n = "kuş";
+      let k = "";
+
+      const comp1 = y && x && z;
+      console.log(comp1);
+
+      const comp2 = x || t;
+      console.log(comp2);
+
+      const comp3 = y && z && m;
+      console.log(comp3);
+
+      const result = x && alert("merhaba");
+
+      const comp6 = x || y || z;
+      console.log(comp6);
+
+      const comp7 = x || null || n;
+      console.log(comp7);
+
+      const result2 = "";
+      result2 || alert("Boş geçilemez");
+
+      console.log(x || k || null);
+    </script>
+  </body>
+</html>

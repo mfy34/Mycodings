@@ -1,0 +1,17 @@
+.highlights{
+    text-align: center;
+    margin-top: 20px;
+}
+.highlights .card .card-footer{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.highlights .card .card-footer > div{
+    border-right: 1px solid #cccccc;
+    flex:1;
+}
+.highlights .card .card-footer > div:last-child{
+    border-right: none;
+}
